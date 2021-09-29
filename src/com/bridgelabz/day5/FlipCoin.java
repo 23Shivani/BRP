@@ -22,8 +22,7 @@ public class FlipCoin {
 		for (int i = 0; i < flips; i++) {
 			if (Math.random() > 0.5) {
 				head++;
-				System.out.println(head);
-				
+				System.out.println(head);	
 			}
 		}
 		double percentofHeads = (head * 100) / flips;
