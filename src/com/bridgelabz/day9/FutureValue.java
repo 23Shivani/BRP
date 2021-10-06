@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class FutureValue {
 
 		public static void value(int c, int r, int t) {
-			double ci=0;
-			ci=Math.pow(c*(1+r),t);
-			System.out.println("future value is "+ci);
+			double result=0;
+			result=Math.pow(c*(1+r),t);
+			System.out.println("future value is "+result);
 		}
 
 		public static void main(String[] args) {
