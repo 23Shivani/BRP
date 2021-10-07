@@ -13,7 +13,7 @@ public class StringFunctions2 {
 	    int len = str.length();
 	    System.out.println("All the permutation of the string are : ");
 	        generatePermutation(str,0,len);
-	    }
+	}
 	
 	    private static void generatePermutation(String str, int start, int end) {
 	        if (start == end-1)
