@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class StringFunctions2 {
 	
 	public static void main(String[] args) {
-	    Scanner cs = new Scanner(System.in);
+	
+		Scanner cs = new Scanner(System.in);
 	    System.out.println("Enter the String");
 	    String str = cs.nextLine();
 	    
@@ -25,7 +26,7 @@ public class StringFunctions2 {
 	            }
 	        }
 	    }
-	
+	    
 	    private static String swapString(String a, int i, int j) {
 	        char[] b = a.toCharArray();
 	        char ch;
